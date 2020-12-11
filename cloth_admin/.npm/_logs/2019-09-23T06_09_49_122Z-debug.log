@@ -1,0 +1,134 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'body-parser', '-g' ]
+2 info using npm@6.4.1
+3 info using node@v8.16.1
+4 verbose npm-session c4fed47722388e79
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 304 https://registry.npmjs.org/body-parser 150ms (from cache)
+8 silly pacote tag manifest for body-parser@latest fetched in 167ms
+9 timing stage:loadCurrentTree Completed in 354ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 1ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 2ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule body-parser@1.19.0 checking installable status
+17 http fetch GET 304 https://registry.npmjs.org/bytes 64ms (from cache)
+18 silly pacote version manifest for bytes@3.1.0 fetched in 66ms
+19 silly resolveWithNewModule bytes@3.1.0 checking installable status
+20 http fetch GET 200 https://registry.npmjs.org/qs 135ms
+21 silly pacote version manifest for qs@6.7.0 fetched in 140ms
+22 silly resolveWithNewModule qs@6.7.0 checking installable status
+23 http fetch GET 304 https://registry.npmjs.org/debug 150ms (from cache)
+24 http fetch GET 304 https://registry.npmjs.org/content-type 152ms (from cache)
+25 http fetch GET 304 https://registry.npmjs.org/on-finished 149ms (from cache)
+26 http fetch GET 304 https://registry.npmjs.org/http-errors 152ms (from cache)
+27 http fetch GET 304 https://registry.npmjs.org/raw-body 151ms (from cache)
+28 http fetch GET 304 https://registry.npmjs.org/depd 155ms (from cache)
+29 silly pacote version manifest for debug@2.6.9 fetched in 157ms
+30 silly resolveWithNewModule debug@2.6.9 checking installable status
+31 http fetch GET 304 https://registry.npmjs.org/type-is 153ms (from cache)
+32 http fetch GET 304 https://registry.npmjs.org/iconv-lite 158ms (from cache)
+33 silly pacote range manifest for content-type@~1.0.4 fetched in 162ms
+34 silly resolveWithNewModule content-type@1.0.4 checking installable status
+35 silly pacote range manifest for on-finished@~2.3.0 fetched in 159ms
+36 silly resolveWithNewModule on-finished@2.3.0 checking installable status
+37 silly pacote version manifest for http-errors@1.7.2 fetched in 163ms
+38 silly resolveWithNewModule http-errors@1.7.2 checking installable status
+39 silly pacote version manifest for raw-body@2.4.0 fetched in 160ms
+40 silly resolveWithNewModule raw-body@2.4.0 checking installable status
+41 silly pacote range manifest for type-is@~1.6.17 fetched in 161ms
+42 silly resolveWithNewModule type-is@1.6.18 checking installable status
+43 silly pacote range manifest for depd@~1.1.2 fetched in 165ms
+44 silly resolveWithNewModule depd@1.1.2 checking installable status
+45 silly pacote version manifest for iconv-lite@0.4.24 fetched in 165ms
+46 silly resolveWithNewModule iconv-lite@0.4.24 checking installable status
+47 http fetch GET 200 https://registry.npmjs.org/ms 47ms
+48 silly pacote version manifest for ms@2.0.0 fetched in 49ms
+49 silly resolveWithNewModule ms@2.0.0 checking installable status
+50 http fetch GET 304 https://registry.npmjs.org/setprototypeof 44ms (from cache)
+51 silly pacote version manifest for setprototypeof@1.1.1 fetched in 46ms
+52 silly resolveWithNewModule setprototypeof@1.1.1 checking installable status
+53 http fetch GET 304 https://registry.npmjs.org/statuses 47ms (from cache)
+54 http fetch GET 304 https://registry.npmjs.org/inherits 49ms (from cache)
+55 http fetch GET 304 https://registry.npmjs.org/toidentifier 49ms (from cache)
+56 silly pacote range manifest for statuses@>= 1.5.0 < 2 fetched in 51ms
+57 silly resolveWithNewModule statuses@1.5.0 checking installable status
+58 silly pacote version manifest for inherits@2.0.3 fetched in 53ms
+59 silly resolveWithNewModule inherits@2.0.3 checking installable status
+60 silly pacote version manifest for toidentifier@1.0.0 fetched in 52ms
+61 silly resolveWithNewModule toidentifier@1.0.0 checking installable status
+62 http fetch GET 304 https://registry.npmjs.org/safer-buffer 34ms (from cache)
+63 silly pacote range manifest for safer-buffer@>= 2.1.2 < 3 fetched in 36ms
+64 silly resolveWithNewModule safer-buffer@2.1.2 checking installable status
+65 http fetch GET 304 https://registry.npmjs.org/ee-first 30ms (from cache)
+66 silly pacote version manifest for ee-first@1.1.1 fetched in 31ms
+67 silly resolveWithNewModule ee-first@1.1.1 checking installable status
+68 http fetch GET 304 https://registry.npmjs.org/unpipe 53ms (from cache)
+69 silly pacote version manifest for unpipe@1.0.0 fetched in 55ms
+70 silly resolveWithNewModule unpipe@1.0.0 checking installable status
+71 http fetch GET 304 https://registry.npmjs.org/mime-types 38ms (from cache)
+72 silly pacote range manifest for mime-types@~2.1.24 fetched in 40ms
+73 silly resolveWithNewModule mime-types@2.1.24 checking installable status
+74 http fetch GET 304 https://registry.npmjs.org/media-typer 42ms (from cache)
+75 silly pacote version manifest for media-typer@0.3.0 fetched in 43ms
+76 silly resolveWithNewModule media-typer@0.3.0 checking installable status
+77 http fetch GET 304 https://registry.npmjs.org/mime-db 32ms (from cache)
+78 silly pacote version manifest for mime-db@1.40.0 fetched in 34ms
+79 silly resolveWithNewModule mime-db@1.40.0 checking installable status
+80 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 511ms
+81 timing stage:loadIdealTree Completed in 527ms
+82 silly currentTree lib
+83 silly idealTree lib
+83 silly idealTree └─┬ body-parser@1.19.0
+83 silly idealTree   ├── bytes@3.1.0
+83 silly idealTree   ├── content-type@1.0.4
+83 silly idealTree   ├── debug@2.6.9
+83 silly idealTree   ├── depd@1.1.2
+83 silly idealTree   ├── ee-first@1.1.1
+83 silly idealTree   ├── http-errors@1.7.2
+83 silly idealTree   ├── iconv-lite@0.4.24
+83 silly idealTree   ├── inherits@2.0.3
+83 silly idealTree   ├── media-typer@0.3.0
+83 silly idealTree   ├── mime-db@1.40.0
+83 silly idealTree   ├── mime-types@2.1.24
+83 silly idealTree   ├── ms@2.0.0
+83 silly idealTree   ├── on-finished@2.3.0
+83 silly idealTree   ├── qs@6.7.0
+83 silly idealTree   ├── raw-body@2.4.0
+83 silly idealTree   ├── safer-buffer@2.1.2
+83 silly idealTree   ├── setprototypeof@1.1.1
+83 silly idealTree   ├── statuses@1.5.0
+83 silly idealTree   ├── toidentifier@1.0.0
+83 silly idealTree   ├── type-is@1.6.18
+83 silly idealTree   └── unpipe@1.0.0
+84 silly install generateActionsToTake
+85 warn checkPermissions Missing write access to /usr/lib/node_modules
+86 timing stage:rollbackFailedOptional Completed in 1ms
+87 timing stage:runTopLevelLifecycles Completed in 896ms
+88 verbose stack Error: EACCES: permission denied, access '/usr/lib/node_modules'
+89 verbose cwd /home/sm6336
+90 verbose Linux 4.15.0-45-generic
+91 verbose argv "/usr/bin/node" "/usr/bin/npm" "install" "body-parser" "-g"
+92 verbose node v8.16.1
+93 verbose npm  v6.4.1
+94 error path /usr/lib/node_modules
+95 error code EACCES
+96 error errno -13
+97 error syscall access
+98 error Error: EACCES: permission denied, access '/usr/lib/node_modules'
+98 error  { Error: EACCES: permission denied, access '/usr/lib/node_modules'
+98 error   stack: 'Error: EACCES: permission denied, access \'/usr/lib/node_modules\'',
+98 error   errno: -13,
+98 error   code: 'EACCES',
+98 error   syscall: 'access',
+98 error   path: '/usr/lib/node_modules' }
+99 error The operation was rejected by your operating system.
+99 error It is likely you do not have the permissions to access this file as the current user
+99 error
+99 error If you believe this might be a permissions issue, please double-check the
+99 error permissions of the file and its containing directories, or try running
+99 error the command again as root/Administrator (though this is not recommended).
+100 verbose exit [ -13, true ]

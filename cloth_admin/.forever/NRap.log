@@ -1,0 +1,517 @@
+server is running
+admin@admin.com 1q2w3e4r
+1
+0
+load success
+admin@admin.com 1q2w3e4r
+1
+0
+load success
+admin@admin.com 1q2w3e4r
+1
+0
+load success
+admin@admin.com 1q2w3e4r
+1
+0
+load success
+sm6336@asdf.com 3124
+login failed.(ID)
+ 
+login failed.(ID)
+ 
+login failed.(ID)
+ 
+login failed.(ID)
+ 
+login failed.(ID)
+ 
+login failed.(ID)
+admin@admin.com 1q2w3e4r
+1
+0
+load success
+gudrb963@gmail.com 1q2w3e4r
+1
+0
+load success
+sm6336@asdf.com 1wqwe
+login failed.(ID)
+ 
+login failed.(ID)
+ 
+login failed.(ID)
+ 
+login failed.(ID)
+gudrb963@gmail.com 1q2w3e4r
+1
+0
+load success
+gudrb963@gmail.com 1q2w3e4r
+1
+0
+load success
+admin@admin.com 1q2w3e4r 
+login failed.(pw)
+admin@admin.com 1q2w3e4r
+1
+0
+load success
+1
+load success
+1
+delete success
+1
+load success
+TypeError: /home/sm6336/template_v2/elements_update.ejs:331
+    329|                                 <div class="panel-body">
+    330| 									<span class="label label-default">#</span>
+ >> 331|                                     <input id='num' type="text" readonly  class="form-control" name="bbsid" placeholder="#" value="<%=result[0].bbsid%>">
+    332|                                     <br>
+    333|                                     <span class="label label-default">상의</span>
+    334| 									<input id='top' type="text" class="form-control" name="top" placeholder="상의 정보" value="<%=result[0].top%>">
+
+Cannot read property 'bbsid' of undefined
+    at eval (eval at compile (/home/sm6336/node_modules/ejs/lib/ejs.js:633:12), <anonymous>:47:35)
+    at returnedFn (/home/sm6336/node_modules/ejs/lib/ejs.js:668:17)
+    at tryHandleCache (/home/sm6336/node_modules/ejs/lib/ejs.js:254:36)
+    at View.exports.renderFile [as engine] (/home/sm6336/node_modules/ejs/lib/ejs.js:485:10)
+    at View.render (/home/sm6336/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/sm6336/node_modules/express/lib/application.js:640:10)
+    at Function.render (/home/sm6336/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/sm6336/node_modules/express/lib/response.js:1012:7)
+    at Query.<anonymous> (/home/sm6336/update_find.js:17:15)
+    at Query.<anonymous> (/home/sm6336/node_modules/mysql/lib/Connection.js:525:10)
+1
+delete success
+1
+0
+load success
+2
+load success
+14
+load success
+gudrb963@gmail.com 1q2w3e4r
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+insert success
+admin@admin.com 1q2w3e4r
+1
+0
+load success
+15
+load success
+15
+delete success
+15
+load success
+TypeError: /home/sm6336/template_v2/elements_update.ejs:331
+    329|                                 <div class="panel-body">
+    330| 									<span class="label label-default">#</span>
+ >> 331|                                     <input id='num' type="text" readonly  class="form-control" name="bbsid" placeholder="#" value="<%=result[0].bbsid%>">
+    332|                                     <br>
+    333|                                     <span class="label label-default">상의</span>
+    334| 									<input id='top' type="text" class="form-control" name="top" placeholder="상의 정보" value="<%=result[0].top%>">
+
+Cannot read property 'bbsid' of undefined
+    at eval (eval at compile (/home/sm6336/node_modules/ejs/lib/ejs.js:633:12), <anonymous>:47:35)
+    at returnedFn (/home/sm6336/node_modules/ejs/lib/ejs.js:668:17)
+    at tryHandleCache (/home/sm6336/node_modules/ejs/lib/ejs.js:254:36)
+    at View.exports.renderFile [as engine] (/home/sm6336/node_modules/ejs/lib/ejs.js:485:10)
+    at View.render (/home/sm6336/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/sm6336/node_modules/express/lib/application.js:640:10)
+    at Function.render (/home/sm6336/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/sm6336/node_modules/express/lib/response.js:1012:7)
+    at Query.<anonymous> (/home/sm6336/update_find.js:17:15)
+    at Query.<anonymous> (/home/sm6336/node_modules/mysql/lib/Connection.js:525:10)
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+15
+load success
+TypeError: /home/sm6336/template_v2/elements_update.ejs:331
+    329|                                 <div class="panel-body">
+    330| 									<span class="label label-default">#</span>
+ >> 331|                                     <input id='num' type="text" readonly  class="form-control" name="bbsid" placeholder="#" value="<%=result[0].bbsid%>">
+    332|                                     <br>
+    333|                                     <span class="label label-default">상의</span>
+    334| 									<input id='top' type="text" class="form-control" name="top" placeholder="상의 정보" value="<%=result[0].top%>">
+
+Cannot read property 'bbsid' of undefined
+    at eval (eval at compile (/home/sm6336/node_modules/ejs/lib/ejs.js:633:12), <anonymous>:47:35)
+    at returnedFn (/home/sm6336/node_modules/ejs/lib/ejs.js:668:17)
+    at tryHandleCache (/home/sm6336/node_modules/ejs/lib/ejs.js:254:36)
+    at View.exports.renderFile [as engine] (/home/sm6336/node_modules/ejs/lib/ejs.js:485:10)
+    at View.render (/home/sm6336/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/sm6336/node_modules/express/lib/application.js:640:10)
+    at Function.render (/home/sm6336/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/sm6336/node_modules/express/lib/response.js:1012:7)
+    at Query.<anonymous> (/home/sm6336/update_find.js:17:15)
+    at Query.<anonymous> (/home/sm6336/node_modules/mysql/lib/Connection.js:525:10)
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+insert success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+16
+load success
+update success
+1
+0
+load success
+1
+0
+load success
+14
+delete success
+1
+0
+load success
+16
+load success
+update success
+1
+0
+load success
+16
+load success
+update success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+admin@admin.com 1q2w3e4r
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+gudrb963@gmail.com 1q2w3e4r
+1
+0
+load success
+16
+load success
+16
+load success
+2
+load success
+16
+load success
+2
+load success
+update success
+1
+0
+load success
+16
+delete success
+1
+0
+load success
+insert success
+1
+0
+load success
+17
+load success
+update success
+1
+0
+load success
+admin@admin.com 1q2w3e4r
+1
+0
+load success
+17
+load success
+2
+load success
+17
+load success
+1
+0
+load success
+1
+0
+load success
+gudrb963@gmail.com 1q2w3e
+login failed.(pw)
+gudrb963@gmail.com 1q2w3e4r
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+2
+load success
+2
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+1
+0
+load success
+2
+load success
+2
+load success
+2
+load success
+2
+load success
+2
+load success
+1
+0
+load success
+2
+load success
+1
+0
+load success
+17
+load success
+17
+load success
+2
+load success
+17
+load success
+17
+delete success
+17
+load success
+TypeError: /home/sm6336/template_v2/elements_update.ejs:331
+    329|                                 <div class="panel-body">
+    330| 									<span class="label label-default">#</span>
+ >> 331|                                     <input id='num' type="text" readonly  class="form-control" name="bbsid" placeholder="#" value="<%=result[0].bbsid%>">
+    332|                                     <br>
+    333|                                     <span class="label label-default">상의</span>
+    334| 									<input id='top' type="text" class="form-control" name="top" placeholder="상의 정보" value="<%=result[0].top%>">
+
+Cannot read property 'bbsid' of undefined
+    at eval (eval at compile (/home/sm6336/node_modules/ejs/lib/ejs.js:633:12), <anonymous>:47:35)
+    at returnedFn (/home/sm6336/node_modules/ejs/lib/ejs.js:668:17)
+    at tryHandleCache (/home/sm6336/node_modules/ejs/lib/ejs.js:254:36)
+    at View.exports.renderFile [as engine] (/home/sm6336/node_modules/ejs/lib/ejs.js:485:10)
+    at View.render (/home/sm6336/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/sm6336/node_modules/express/lib/application.js:640:10)
+    at Function.render (/home/sm6336/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/sm6336/node_modules/express/lib/response.js:1012:7)
+    at Query.<anonymous> (/home/sm6336/update_find.js:17:15)
+    at Query.<anonymous> (/home/sm6336/node_modules/mysql/lib/Connection.js:525:10)
+2
+load success
+2
+load success
+2
+load success
+2
+load success
+2
+load success
+2
+load success
+2
+load success
+1
+0
+load success
+insert success
+1
+0
+load success
+18
+load success
+18
+delete success
+18
+load success
+TypeError: /home/sm6336/template_v2/elements_update.ejs:331
+    329|                                 <div class="panel-body">
+    330| 									<span class="label label-default">#</span>
+ >> 331|                                     <input id='num' type="text" readonly  class="form-control" name="bbsid" placeholder="#" value="<%=result[0].bbsid%>">
+    332|                                     <br>
+    333|                                     <span class="label label-default">상의</span>
+    334| 									<input id='top' type="text" class="form-control" name="top" placeholder="상의 정보" value="<%=result[0].top%>">
+
+Cannot read property 'bbsid' of undefined
+    at eval (eval at compile (/home/sm6336/node_modules/ejs/lib/ejs.js:633:12), <anonymous>:47:35)
+    at returnedFn (/home/sm6336/node_modules/ejs/lib/ejs.js:668:17)
+    at tryHandleCache (/home/sm6336/node_modules/ejs/lib/ejs.js:254:36)
+    at View.exports.renderFile [as engine] (/home/sm6336/node_modules/ejs/lib/ejs.js:485:10)
+    at View.render (/home/sm6336/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/sm6336/node_modules/express/lib/application.js:640:10)
+    at Function.render (/home/sm6336/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/sm6336/node_modules/express/lib/response.js:1012:7)
+    at Query.<anonymous> (/home/sm6336/update_find.js:17:15)
+    at Query.<anonymous> (/home/sm6336/node_modules/mysql/lib/Connection.js:525:10)
+1
+0
+load success
+error: Forever detected script was killed by signal: SIGKILL

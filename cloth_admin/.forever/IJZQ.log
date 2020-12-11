@@ -1,0 +1,64 @@
+server is running
+gudrb963@gmail.com 1q2w3e4r
+1
+0
+load success
+2
+{ rows: 
+   [ RowDataPacket {
+       bbsid: 2,
+       top: '맨투맨',
+       pants: '청바지',
+       shoes: '스니커즈',
+       bag: ' 백팩',
+       coat: '-' } ],
+  result: 
+   [ RowDataPacket {
+       bbsid: 2,
+       top: '맨투맨',
+       pants: '청바지',
+       shoes: '스니커즈',
+       bag: ' 백팩',
+       coat: '-' } ] }
+load success
+update success
+1
+0
+load success
+insert success
+1
+0
+load success
+2
+{ rows: 
+   [ RowDataPacket {
+       bbsid: 2,
+       top: '맨투맨',
+       pants: '청바지',
+       shoes: '스니커즈',
+       bag: ' 백팩',
+       coat: 'test' },
+     RowDataPacket {
+       bbsid: 26,
+       top: 'tset',
+       pants: 'tet',
+       shoes: '',
+       bag: 'test',
+       coat: '' } ],
+  result: 
+   [ RowDataPacket {
+       bbsid: 2,
+       top: '맨투맨',
+       pants: '청바지',
+       shoes: '스니커즈',
+       bag: ' 백팩',
+       coat: 'test' } ] }
+load success
+26
+delete success
+1
+0
+load success
+1
+0
+load success

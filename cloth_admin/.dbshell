@@ -1,0 +1,5 @@
+show databases;
+show dbs
+db
+db
+db.test.insert({"name": "MongoDB Tutorial", "author": "velopert"});

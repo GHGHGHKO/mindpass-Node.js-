@@ -1,0 +1,245 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'express', '-g' ]
+2 info using npm@6.4.1
+3 info using node@v8.16.1
+4 verbose npm-session fa7fb2f0b5b399b6
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 304 https://registry.npmjs.org/express 157ms (from cache)
+8 silly pacote tag manifest for express@latest fetched in 183ms
+9 timing stage:loadCurrentTree Completed in 365ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 0ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 2ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule express@4.17.1 checking installable status
+17 http fetch GET 304 https://registry.npmjs.org/array-flatten 60ms (from cache)
+18 silly pacote version manifest for array-flatten@1.1.1 fetched in 64ms
+19 silly resolveWithNewModule array-flatten@1.1.1 checking installable status
+20 http fetch GET 304 https://registry.npmjs.org/escape-html 63ms (from cache)
+21 silly pacote range manifest for escape-html@~1.0.3 fetched in 108ms
+22 silly resolveWithNewModule escape-html@1.0.3 checking installable status
+23 http fetch GET 304 https://registry.npmjs.org/accepts 185ms (from cache)
+24 http fetch GET 304 https://registry.npmjs.org/body-parser 183ms (from cache)
+25 http fetch GET 304 https://registry.npmjs.org/content-disposition 186ms (from cache)
+26 http fetch GET 304 https://registry.npmjs.org/debug 180ms (from cache)
+27 http fetch GET 304 https://registry.npmjs.org/encodeurl 180ms (from cache)
+28 http fetch GET 304 https://registry.npmjs.org/cookie 184ms (from cache)
+29 http fetch GET 304 https://registry.npmjs.org/content-type 185ms (from cache)
+30 http fetch GET 304 https://registry.npmjs.org/depd 184ms (from cache)
+31 silly pacote version manifest for body-parser@1.19.0 fetched in 192ms
+32 silly resolveWithNewModule body-parser@1.19.0 checking installable status
+33 silly pacote range manifest for accepts@~1.3.7 fetched in 196ms
+34 silly resolveWithNewModule accepts@1.3.7 checking installable status
+35 silly pacote version manifest for content-disposition@0.5.3 fetched in 196ms
+36 silly resolveWithNewModule content-disposition@0.5.3 checking installable status
+37 silly pacote version manifest for debug@2.6.9 fetched in 192ms
+38 silly resolveWithNewModule debug@2.6.9 checking installable status
+39 http fetch GET 304 https://registry.npmjs.org/cookie-signature 193ms (from cache)
+40 silly pacote range manifest for encodeurl@~1.0.2 fetched in 193ms
+41 silly resolveWithNewModule encodeurl@1.0.2 checking installable status
+42 silly pacote version manifest for cookie@0.4.0 fetched in 196ms
+43 silly resolveWithNewModule cookie@0.4.0 checking installable status
+44 silly pacote range manifest for content-type@~1.0.4 fetched in 201ms
+45 silly resolveWithNewModule content-type@1.0.4 checking installable status
+46 silly pacote range manifest for depd@~1.1.2 fetched in 201ms
+47 silly resolveWithNewModule depd@1.1.2 checking installable status
+48 silly pacote version manifest for cookie-signature@1.0.6 fetched in 220ms
+49 silly resolveWithNewModule cookie-signature@1.0.6 checking installable status
+50 http fetch GET 200 https://registry.npmjs.org/path-to-regexp 37ms (from cache)
+51 silly pacote version manifest for path-to-regexp@0.1.7 fetched in 45ms
+52 silly resolveWithNewModule path-to-regexp@0.1.7 checking installable status
+53 http fetch GET 304 https://registry.npmjs.org/etag 99ms (from cache)
+54 silly pacote range manifest for etag@~1.8.1 fetched in 105ms
+55 silly resolveWithNewModule etag@1.8.1 checking installable status
+56 http fetch GET 304 https://registry.npmjs.org/finalhandler 87ms (from cache)
+57 http fetch GET 304 https://registry.npmjs.org/fresh 92ms (from cache)
+58 http fetch GET 304 https://registry.npmjs.org/merge-descriptors 91ms (from cache)
+59 silly pacote range manifest for finalhandler@~1.1.2 fetched in 98ms
+60 silly resolveWithNewModule finalhandler@1.1.2 checking installable status
+61 http fetch GET 304 https://registry.npmjs.org/methods 96ms (from cache)
+62 http fetch GET 304 https://registry.npmjs.org/parseurl 92ms (from cache)
+63 http fetch GET 304 https://registry.npmjs.org/on-finished 93ms (from cache)
+64 silly pacote version manifest for fresh@0.5.2 fetched in 103ms
+65 silly resolveWithNewModule fresh@0.5.2 checking installable status
+66 silly pacote version manifest for merge-descriptors@1.0.1 fetched in 102ms
+67 silly resolveWithNewModule merge-descriptors@1.0.1 checking installable status
+68 silly pacote range manifest for methods@~1.1.2 fetched in 106ms
+69 silly resolveWithNewModule methods@1.1.2 checking installable status
+70 silly pacote range manifest for parseurl@~1.3.3 fetched in 103ms
+71 silly resolveWithNewModule parseurl@1.3.3 checking installable status
+72 silly pacote range manifest for on-finished@~2.3.0 fetched in 105ms
+73 silly resolveWithNewModule on-finished@2.3.0 checking installable status
+74 http fetch GET 304 https://registry.npmjs.org/proxy-addr 109ms (from cache)
+75 http fetch GET 304 https://registry.npmjs.org/qs 87ms (from cache)
+76 silly pacote version manifest for qs@6.7.0 fetched in 99ms
+77 silly resolveWithNewModule qs@6.7.0 checking installable status
+78 silly pacote range manifest for proxy-addr@~2.0.5 fetched in 123ms
+79 silly resolveWithNewModule proxy-addr@2.0.5 checking installable status
+80 http fetch GET 304 https://registry.npmjs.org/range-parser 99ms (from cache)
+81 silly pacote range manifest for range-parser@~1.2.1 fetched in 109ms
+82 silly resolveWithNewModule range-parser@1.2.1 checking installable status
+83 http fetch GET 304 https://registry.npmjs.org/safe-buffer 90ms (from cache)
+84 silly pacote version manifest for safe-buffer@5.1.2 fetched in 95ms
+85 silly resolveWithNewModule safe-buffer@5.1.2 checking installable status
+86 http fetch GET 304 https://registry.npmjs.org/send 81ms (from cache)
+87 silly pacote version manifest for send@0.17.1 fetched in 86ms
+88 silly resolveWithNewModule send@0.17.1 checking installable status
+89 http fetch GET 304 https://registry.npmjs.org/statuses 76ms (from cache)
+90 http fetch GET 304 https://registry.npmjs.org/serve-static 84ms (from cache)
+91 http fetch GET 304 https://registry.npmjs.org/setprototypeof 88ms (from cache)
+92 http fetch GET 304 https://registry.npmjs.org/utils-merge 78ms (from cache)
+93 http fetch GET 304 https://registry.npmjs.org/type-is 79ms (from cache)
+94 silly pacote range manifest for statuses@~1.5.0 fetched in 85ms
+95 silly resolveWithNewModule statuses@1.5.0 checking installable status
+96 silly pacote version manifest for serve-static@1.14.1 fetched in 94ms
+97 silly resolveWithNewModule serve-static@1.14.1 checking installable status
+98 silly pacote version manifest for utils-merge@1.0.1 fetched in 83ms
+99 silly resolveWithNewModule utils-merge@1.0.1 checking installable status
+100 silly pacote version manifest for setprototypeof@1.1.1 fetched in 93ms
+101 silly resolveWithNewModule setprototypeof@1.1.1 checking installable status
+102 silly pacote range manifest for type-is@~1.6.18 fetched in 85ms
+103 silly resolveWithNewModule type-is@1.6.18 checking installable status
+104 http fetch GET 304 https://registry.npmjs.org/vary 63ms (from cache)
+105 silly pacote range manifest for vary@~1.1.2 fetched in 65ms
+106 silly resolveWithNewModule vary@1.1.2 checking installable status
+107 http fetch GET 304 https://registry.npmjs.org/mime-types 34ms (from cache)
+108 silly pacote range manifest for mime-types@~2.1.24 fetched in 36ms
+109 silly resolveWithNewModule mime-types@2.1.24 checking installable status
+110 http fetch GET 304 https://registry.npmjs.org/negotiator 38ms (from cache)
+111 silly pacote version manifest for negotiator@0.6.2 fetched in 41ms
+112 silly resolveWithNewModule negotiator@0.6.2 checking installable status
+113 http fetch GET 304 https://registry.npmjs.org/mime-db 34ms (from cache)
+114 silly pacote version manifest for mime-db@1.40.0 fetched in 38ms
+115 silly resolveWithNewModule mime-db@1.40.0 checking installable status
+116 http fetch GET 304 https://registry.npmjs.org/bytes 44ms (from cache)
+117 silly pacote version manifest for bytes@3.1.0 fetched in 46ms
+118 silly resolveWithNewModule bytes@3.1.0 checking installable status
+119 http fetch GET 304 https://registry.npmjs.org/iconv-lite 47ms (from cache)
+120 http fetch GET 304 https://registry.npmjs.org/raw-body 48ms (from cache)
+121 http fetch GET 304 https://registry.npmjs.org/http-errors 50ms (from cache)
+122 silly pacote version manifest for iconv-lite@0.4.24 fetched in 51ms
+123 silly resolveWithNewModule iconv-lite@0.4.24 checking installable status
+124 silly pacote version manifest for raw-body@2.4.0 fetched in 51ms
+125 silly resolveWithNewModule raw-body@2.4.0 checking installable status
+126 silly pacote version manifest for http-errors@1.7.2 fetched in 53ms
+127 silly resolveWithNewModule http-errors@1.7.2 checking installable status
+128 http fetch GET 304 https://registry.npmjs.org/ms 33ms (from cache)
+129 silly pacote version manifest for ms@2.0.0 fetched in 34ms
+130 silly resolveWithNewModule ms@2.0.0 checking installable status
+131 http fetch GET 304 https://registry.npmjs.org/toidentifier 37ms (from cache)
+132 http fetch GET 304 https://registry.npmjs.org/inherits 37ms (from cache)
+133 silly pacote version manifest for toidentifier@1.0.0 fetched in 38ms
+134 silly resolveWithNewModule toidentifier@1.0.0 checking installable status
+135 silly pacote version manifest for inherits@2.0.3 fetched in 39ms
+136 silly resolveWithNewModule inherits@2.0.3 checking installable status
+137 http fetch GET 304 https://registry.npmjs.org/safer-buffer 25ms (from cache)
+138 silly pacote range manifest for safer-buffer@>= 2.1.2 < 3 fetched in 28ms
+139 silly resolveWithNewModule safer-buffer@2.1.2 checking installable status
+140 http fetch GET 304 https://registry.npmjs.org/ee-first 31ms (from cache)
+141 silly pacote version manifest for ee-first@1.1.1 fetched in 33ms
+142 silly resolveWithNewModule ee-first@1.1.1 checking installable status
+143 http fetch GET 304 https://registry.npmjs.org/unpipe 34ms (from cache)
+144 silly pacote version manifest for unpipe@1.0.0 fetched in 35ms
+145 silly resolveWithNewModule unpipe@1.0.0 checking installable status
+146 http fetch GET 304 https://registry.npmjs.org/media-typer 27ms (from cache)
+147 silly pacote version manifest for media-typer@0.3.0 fetched in 34ms
+148 silly resolveWithNewModule media-typer@0.3.0 checking installable status
+149 http fetch GET 304 https://registry.npmjs.org/ipaddr.js 31ms (from cache)
+150 silly pacote version manifest for ipaddr.js@1.9.0 fetched in 32ms
+151 silly resolveWithNewModule ipaddr.js@1.9.0 checking installable status
+152 http fetch GET 304 https://registry.npmjs.org/forwarded 62ms (from cache)
+153 silly pacote range manifest for forwarded@~0.1.2 fetched in 64ms
+154 silly resolveWithNewModule forwarded@0.1.2 checking installable status
+155 silly pacote version manifest for ms@2.1.1 fetched in 1ms
+156 silly resolveWithNewModule ms@2.1.1 checking installable status
+157 http fetch GET 304 https://registry.npmjs.org/mime 36ms (from cache)
+158 http fetch GET 304 https://registry.npmjs.org/destroy 38ms (from cache)
+159 silly pacote version manifest for mime@1.6.0 fetched in 40ms
+160 silly resolveWithNewModule mime@1.6.0 checking installable status
+161 silly pacote range manifest for destroy@~1.0.4 fetched in 42ms
+162 silly resolveWithNewModule destroy@1.0.4 checking installable status
+163 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 946ms
+164 timing stage:loadIdealTree Completed in 985ms
+165 silly currentTree lib
+166 silly idealTree lib
+166 silly idealTree └─┬ express@4.17.1
+166 silly idealTree   ├── accepts@1.3.7
+166 silly idealTree   ├── array-flatten@1.1.1
+166 silly idealTree   ├── body-parser@1.19.0
+166 silly idealTree   ├── bytes@3.1.0
+166 silly idealTree   ├── content-disposition@0.5.3
+166 silly idealTree   ├── content-type@1.0.4
+166 silly idealTree   ├── cookie-signature@1.0.6
+166 silly idealTree   ├── cookie@0.4.0
+166 silly idealTree   ├── debug@2.6.9
+166 silly idealTree   ├── depd@1.1.2
+166 silly idealTree   ├── destroy@1.0.4
+166 silly idealTree   ├── ee-first@1.1.1
+166 silly idealTree   ├── encodeurl@1.0.2
+166 silly idealTree   ├── escape-html@1.0.3
+166 silly idealTree   ├── etag@1.8.1
+166 silly idealTree   ├── finalhandler@1.1.2
+166 silly idealTree   ├── forwarded@0.1.2
+166 silly idealTree   ├── fresh@0.5.2
+166 silly idealTree   ├── http-errors@1.7.2
+166 silly idealTree   ├── iconv-lite@0.4.24
+166 silly idealTree   ├── inherits@2.0.3
+166 silly idealTree   ├── ipaddr.js@1.9.0
+166 silly idealTree   ├── media-typer@0.3.0
+166 silly idealTree   ├── merge-descriptors@1.0.1
+166 silly idealTree   ├── methods@1.1.2
+166 silly idealTree   ├── mime-db@1.40.0
+166 silly idealTree   ├── mime-types@2.1.24
+166 silly idealTree   ├── mime@1.6.0
+166 silly idealTree   ├── ms@2.0.0
+166 silly idealTree   ├── negotiator@0.6.2
+166 silly idealTree   ├── on-finished@2.3.0
+166 silly idealTree   ├── parseurl@1.3.3
+166 silly idealTree   ├── path-to-regexp@0.1.7
+166 silly idealTree   ├── proxy-addr@2.0.5
+166 silly idealTree   ├── qs@6.7.0
+166 silly idealTree   ├── range-parser@1.2.1
+166 silly idealTree   ├── raw-body@2.4.0
+166 silly idealTree   ├── safe-buffer@5.1.2
+166 silly idealTree   ├── safer-buffer@2.1.2
+166 silly idealTree   ├─┬ send@0.17.1
+166 silly idealTree   │ └── ms@2.1.1
+166 silly idealTree   ├── serve-static@1.14.1
+166 silly idealTree   ├── setprototypeof@1.1.1
+166 silly idealTree   ├── statuses@1.5.0
+166 silly idealTree   ├── toidentifier@1.0.0
+166 silly idealTree   ├── type-is@1.6.18
+166 silly idealTree   ├── unpipe@1.0.0
+166 silly idealTree   ├── utils-merge@1.0.1
+166 silly idealTree   └── vary@1.1.2
+167 silly install generateActionsToTake
+168 warn checkPermissions Missing write access to /usr/lib/node_modules
+169 timing stage:rollbackFailedOptional Completed in 1ms
+170 timing stage:runTopLevelLifecycles Completed in 1369ms
+171 verbose stack Error: EACCES: permission denied, access '/usr/lib/node_modules'
+172 verbose cwd /home/sm6336
+173 verbose Linux 4.15.0-45-generic
+174 verbose argv "/usr/bin/node" "/usr/bin/npm" "install" "express" "-g"
+175 verbose node v8.16.1
+176 verbose npm  v6.4.1
+177 error path /usr/lib/node_modules
+178 error code EACCES
+179 error errno -13
+180 error syscall access
+181 error Error: EACCES: permission denied, access '/usr/lib/node_modules'
+181 error  { Error: EACCES: permission denied, access '/usr/lib/node_modules'
+181 error   stack: 'Error: EACCES: permission denied, access \'/usr/lib/node_modules\'',
+181 error   errno: -13,
+181 error   code: 'EACCES',
+181 error   syscall: 'access',
+181 error   path: '/usr/lib/node_modules' }
+182 error The operation was rejected by your operating system.
+182 error It is likely you do not have the permissions to access this file as the current user
+182 error
+182 error If you believe this might be a permissions issue, please double-check the
+182 error permissions of the file and its containing directories, or try running
+182 error the command again as root/Administrator (though this is not recommended).
+183 verbose exit [ -13, true ]
