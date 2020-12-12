@@ -39,6 +39,16 @@ Android GPS값을 Node.js로 받아옴<br>
 Android 메모 데이터를 받아와 Node.js를 통해 Python Konlpy 함수 실행<br>
 결과를 Android로 전송<br>
 
+======================================================================
+
+5. raspi velcro
+치매환자를 위한 낙상방지 IoT 기기(node.js 기반)<br>
+
+<b>Rasberry Pi(Node.js)</b> <-> Server(Tomcat) <-> Android<br>
+에서 Node.js를 활용한 개발 프로젝트<br>
+Raspberry Pi의 벨크로 데이터(전기신호) 수신(json)<br>
+Node.js를 통해 서버로 전송<br>
+
 
 
 
