@@ -3,10 +3,10 @@
 1. bracelet_Project
 IoT 기반의 팔찌 외주 용역 개발 건
 
-Arduino <-> Node.js <-> Android
-에서 Node.js를 활용한 개발 프로젝트
-1.1 Arduino의 데이터 값을 서버로 전송(json)
-1.2 서버(Node.js)에서 Android 애플리케이션으로 전송
+Arduino <-> Node.js <-> Android<br>
+에서 Node.js를 활용한 개발 프로젝트<br>
+1.1 Arduino의 데이터 값을 서버로 전송(json)<br>
+1.2 서버(Node.js)에서 Android 애플리케이션으로 전송<br>
 
 ======================================================================
 
