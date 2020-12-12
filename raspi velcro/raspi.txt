@@ -1,0 +1,10 @@
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install git-core
+git clone git://git.drogon.net/wiringPi
+cd wiringPi/
+sudo apt-get install npm
+npm install wiring-pi
+sudo apt-get update
+sudo apt-get upgrade
+sudo rpi-update 52241088c1da59a359110d39c1875cda56496764
