@@ -1,9 +1,9 @@
 var http = require('http');
 var wpi = require('wiring-pi');
 
-var HOST = '222.116.135.199';
+var HOST = 'localhost';
 var PATH = '/home/csserver/nodejs/json.js';
-var PORT = '6427';
+var PORT = 'xxxx';
 var METHOD = 'POST';
 
 var options = {
